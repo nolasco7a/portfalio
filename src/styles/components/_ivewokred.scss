@@ -1,0 +1,70 @@
+.ant-tabs-nav{
+  color: white;
+}
+
+.ant-tabs-content{
+  color: white;
+}
+
+.ant-tabs-tab-active{
+  color: $custom-color-1 !important;
+}
+
+//color tab ink bar
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-tabs .ant-tabs-ink-bar {
+    position: absolute;
+    background: $custom-color-1;
+    pointer-events: none;
+}
+
+//color hover tabs
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-tabs .ant-tabs-tab:hover {
+    color: $custom-color-2;
+}
+
+//color name tabs
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-tabs .ant-tabs-tab {
+    color: $custom-color-4;
+}
+
+//color active tab
+:where(.css-dev-only-do-not-override-1n7nwfa).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: $custom-color-1;
+    text-shadow: 0 0 0.25px currentcolor;
+}
+
+.content-tab-custom{
+  .type-company{
+    font-size: 0.6rem;
+    font-weight: 200;
+  }
+
+  .name-company{
+    margin-bottom:0
+  }
+
+  .type-job{
+    color: $custom-color-1;
+  }
+
+  .year{
+    letter-spacing: 2px;
+    font-size: .8rem;
+    font-weight: 300;
+    color: $custom-color-2;
+  }
+
+  ul{
+    list-style-type: none;
+
+    li{
+      margin-bottom: 7px;
+      font-size:.8rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.style-none{
+  text-decoration: none;
+}

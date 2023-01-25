@@ -1,0 +1,151 @@
+.main_container{
+  padding: 0 1.5rem;
+  overflow: hidden;
+  margin-bottom: 5rem;
+  display: flex;
+  justify-content: center;
+
+  .view-margin{
+    margin-top: 2rem ;
+  }
+
+  .contact_container{
+    margin-bottom: 5rem;
+  }
+
+  .main_information{
+    display: grid;
+  }
+
+  .about_devimage{
+    margin-top: 100px;
+    grid-area: photo;
+
+    img{
+      height: 400px;
+      width: auto;
+      box-shadow: 10px 10px 0px -5px rgba(159, 53, 53, 0.48);
+      transition: all .1s ease-out;
+
+      &:hover{
+        box-shadow: 15px 15px 0px 0px rgb(159, 53, 53);
+        transition: all .1s ease-in;
+      }
+    }
+  }
+
+  .about_maininformation{
+    grid-area: information;
+  }
+
+  .title{
+    font-size: 3rem;
+    font-weight: 900;
+  }
+
+  .introduction{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(178, 178, 178);
+
+    strong{
+      color: white;
+    }
+  }
+
+
+  .contact_icons{
+    cursor: pointer;
+  }
+
+  .icons{
+    display: inline;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+
+    img{
+      height: 30px;
+      width: 30px;
+      filter: invert(100%);
+      transition: filter 0.2s ease-in-out;
+      margin-top: 1rem;
+
+      &:hover{
+        filter: invert(50%);
+      }
+    }
+  }
+}
+
+.information{
+    font-size: 16px;
+    line-height: 24px;
+    white-space: 10px;
+    letter-spacing: 0px;
+    font-weight: 300;
+  }
+
+//smallest devices
+@media (min-width: 0px) {
+  .main_information{
+    grid-template-areas: 'photo'
+    'information';
+    gap: 1rem;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+  .photo{
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  .main_container{
+     padding: 0 8rem
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+  .main_container{
+    padding: 0 10rem;
+  }
+  .main_information{
+    grid-template-areas: 'information photo';
+    gap: 2rem;
+
+      .about_devimage{
+      margin-top: 100px;
+      grid-area: photo;
+      
+      img{
+        height: 400px;
+        width: auto;
+      }
+    }
+  }
+}
+
+  // X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+  .view-margin{
+    max-width: 900px;
+  }
+  .main_information{
+    grid-template-areas: 'information photo';
+    gap: 5rem;
+
+    .about_devimage{
+      margin-top: 100px;
+      grid-area: photo;
+      
+      img{
+        height: 500px;
+        width: auto;
+      }
+    }
+  }
+ }

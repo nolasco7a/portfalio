@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Sompopo Shop",
+    "url_applestore": "https://apps.apple.com/us/app/sompopo/id1420680210",
+    "url_googleplay": "https://play.google.com/store/apps/details?id=customer.sompopo.com&hl=en_US&gl=US",
+    "description": ["Sompopo is an e-commerce platform with a business model that allows users to purchase a wide variety of items available and make payments via credit card or at authorized points distributed throughout the region of Honduras."],
+    "image": "../images/projects/sompopo_shop/image_1.png",
+    "stack_tech":["react native", "redux", "fetch", "style components"],
+    "type_application": "Mobile App"
+  },
+  {
+    "title": "Sompopo Suppliers",
+    "url_web": "http://proveedores.sompopo.com/",
+    "description": ["Sompopo suppliers is a platform for managing products, suppliers and wineries associated with the sompopo ecosystem."
+  ],
+    "image": "../images/projects/sompopo_proveedores/image_1.png",
+    "stack_tech": ["laravel", "vue", "vuex", "axios", "bootstrap"],
+    "type_application": "platform web"
+  },
+  {
+    "title": "Supermercados Diprova",
+    "url_web": "https://diprova.com/",
+    "description": ["Diprova is a supermarket that offers a home delivery service, with multiple features such as special offers and personalized suggested products or re-purchases based on your previous purchase history."
+  ],
+    "image": "../images/projects/diprova/image_1.png",
+    "stack_tech": ["php", "vue", "vuex", "axios", "graphql", "ant design"],
+    "type_application": "web app"
+  },
+  {
+    "title": "Terra te impulsa",
+    "url_web": "www.terrateimpulsa.com",
+    "description": ["Terra TeImpulsa is an alternative that was born during the pandemic to give space to small businesses to expose their products and to make sales deals through telephone orders."],
+    "image": "../images/projects/terra_teimpulsa/image_1.png",
+    "stack_tech": ["laravel", "vue", "vuex", "axios"],
+    "type_application": "web page"
+  },
+  {
+    "title": "Argos Honduras",
+    "url_web": "https://honduras.argos.co/",
+    "description": ["Argos is a multinational cement producer, backed by 40 years of experience in the cement market."],
+    "image": "../images/projects/argos/image_1.png",
+    "stack_tech": ["wordpress", "js"],
+    "type_application": "web page"
+  },
+  {
+    "title": "Wedding Lopez Chavez",
+    "description": ["Wedding Lopez Chavez, is a website created with the purpose of providing relevant information to the wedding guests, such as locations of celebration, lodging locations, gift section, and guest registry."],
+    "image": "../images/projects/wedding_lopez_chavez/image_1.png",
+    "stack_tech": ["Back-end: laravel", "Front-end: vue vuex"],
+    "type_application": "web page"
+  }
+]

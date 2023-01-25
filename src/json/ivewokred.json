@@ -1,0 +1,39 @@
+[
+  {
+    "company":"PAiC Business Development",
+    "year":"August, 2019 - present",
+    "type":"Development company",
+    "url": "https://paic-chain.com/",
+    "job": "Web developer / Lead Project",
+    "contributions":[
+       "Implement GIT in legacy projects",
+        "Implement new development technologies like Laravel, Vue, and GraphQL",
+        "Contribute to take decisions in design and development",
+        "Optimize to code in legacy projects",
+        "Implement open source technologies like OpenCart to create canned m-commerce",
+        "Add new features, optimize, and maintenance legacy projects made in pure PHP",
+        "Add new features, optimize, and maintenance legacy projects made in React Native",
+        "Create portals of management content web",
+        "Reduce bugs reported for customers on 70%",
+        "Increased sales in 40% of companies like Sompopo Shop, developing new features in payment methods, and improving the checkout flux",
+        "Project Leader of 3 people team, for the development of front-end for e-commerce stores, with regional scope"
+      ]
+  },
+  {
+    "company":"IdeaWorks International",
+    "year":"May, 2018 - August, 2019",
+    "type":"Digital transformation company",
+    "url": "https://ideaworks.la/sv",
+    "job": "Web developer / Lead Project",
+    "contributions":[
+      "Implement technologies and optimize time and design like Laravel, Vue, Figma, Postman, and Sass",
+      "Implement a web security process by using authentication library Auth0 to improve the security.",
+      "Direction and Planification of new web projects",
+      "Train new developers",
+      "Optimize UI/UX of web projects in collaboration with creativity department",
+      "Implement SVG animations in a web project",
+      "Create rules and good practice coding",
+      "Project Leader of 2 people team"
+     ]
+  }
+]

@@ -1,0 +1,23 @@
+//identificar el componente al que pertenece la clase
+//.navbar_container is an example
+
+.navbar_container{
+  position:absolute;
+  padding: 16px;
+  margin: 0;
+  top: 0;
+  right: 0;
+
+  .navItem{
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 12px;
+  }
+}
+
+a{
+  text-shadow: none;
+  color: rgb(230, 230, 230)
+}
+

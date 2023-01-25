@@ -1,0 +1,46 @@
+$base-margin: 0.5rem;
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color: $custom-color-1;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: $custom-color-1;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+
+@for $i from 1 through 10 {
+    .mt-#{$i} {
+        margin-top: ($i * $base-margin);
+    }
+}
+
+@for $i from 1 through 10 {
+    .mr-#{$i} {
+        margin-right: ($i * $base-margin);
+    }
+}
+
+@for $i from 1 through 10 {
+    .ml-#{$i} {
+        margin-left: ($i * $base-margin);
+    }
+}
+
+
+
