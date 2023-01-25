@@ -19,7 +19,7 @@ const IveWorked = () => {
   return (
     <>
       <Tabs
-        tabPosition={'left'}
+        tabPosition={'top'}
         items={jobs.map((job, i) => {
           return {
             label: `${job.company}`,
