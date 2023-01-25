@@ -1,5 +1,5 @@
 {
-  "name": "portfolio",
+  "name": "portfalio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,7 +16,6 @@
     "react-scripts": "5.0.1",
     "sass": "^1.57.1",
     "sort-by": "^1.2.0",
-    "swiper": "^8.4.6",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
