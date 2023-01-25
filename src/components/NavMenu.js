@@ -1,6 +1,5 @@
 import React from 'react'
 import CodeTag from './CodeTag'
-import {Link} from 'react-router-dom'
 
 export const NavMenu = (props) => {
   const {visible} = props

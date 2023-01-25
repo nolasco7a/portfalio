@@ -1,5 +1,4 @@
 import { Tabs } from 'antd';
-import Icon, {SwapRightOutlined} from '@ant-design/icons'
 import jobs from '../json/ivewokred.json'
 
 const content = (objectJob, id) => {

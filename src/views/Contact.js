@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import { Fancy } from '../components/Buttons'
 import { resume } from '../utils/download'
 
