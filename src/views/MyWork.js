@@ -1,7 +1,7 @@
 import React from 'react'
 import CardProject from '../components/CardProject'
 import projects from '../json/projects.json'
-
+import { LinkOutlined } from '@ant-design/icons'
 
 export const MyWork = () => {
   return (
@@ -16,6 +16,24 @@ export const MyWork = () => {
           :<CardProject project={project} sideInformation='right' key={i}/>
          )
         }
+
+        <div className='another-projects'>
+          <p className='introduction color-white'>Another small projects</p>
+          <ul>
+            <li>
+              <a href='https://weather-eight-flax.vercel.app/' target='_blank' rel='noreferrer'>
+               <LinkOutlined /> Weather web application <br/>
+              </a>
+              <div className='stack-tech'>react</div>
+            </li>
+            <li>
+              <a href='https://seacrh-images.vercel.app/' target='_blank' rel='noreferrer'>
+               <LinkOutlined /> Search images web application<br/>
+              </a>
+              <div className='stack-tech'>react</div>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   )
