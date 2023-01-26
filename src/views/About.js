@@ -40,7 +40,7 @@ export const About = () => {
           <div className='about_maininformation'>
             <h1 className='title'>About</h1>
             <p className='introduction'>
-              Hi! <strong>Full Stack Developer</strong> with 4+ years of experience
+              Hi! <strong>Front-end Developer</strong> with 4+ years of experience
             </p>
             <p className='information'>
               Designing and developing multiple web-based applications, incorporating a range of technologies like JavaScript, PHP, React, Vue, React-Native, GraphQL, API Rest, Axios, MySQL and Laravel Focused on delivering exceptional customer experiences and developing efficient and optimized code.

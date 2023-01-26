@@ -26,7 +26,7 @@ export const Home = () => {
             >
               <NavMenu visible={menu} />
               <CodeTag tag="p"/>
-              <p className="profession">Full Stack Developer</p>
+              <p className="profession">Front-end Developer</p>
               <CodeTag tag="/p"/>
               <Fancy text='Contact me' download={false} route={'mailto:nolasco7a@gmail.com'}/>
             </div>
