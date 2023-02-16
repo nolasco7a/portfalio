@@ -5,7 +5,7 @@ import { LinkOutlined, AndroidOutlined, AppleOutlined } from '@ant-design/icons'
 export const CardProject = (props) => {
   const { project, sideInformation } = props
   const { image, title, description, type_application, stack_tech } = project
-
+  console.log(project)
    return (
     <a href={project.url_web?project.url_web:null} className='style-none' rel='noreferrer' target="_blank">
       <div className={sideInformation==='left'?'cardproject information-left':'cardproject information-right'}>
@@ -27,6 +27,8 @@ export const CardProject = (props) => {
               {project.url_web?<a href={project.url_web} target="_blank" rel='noreferrer'><LinkOutlined /></a>:null}
               {project.url_googleplay?<a href={project.url_googleplay} target="_blank" rel='noreferrer'><AndroidOutlined /></a>:null}
               {project.url_applestore?<a href={project.url_applestore} target="_blank" rel='noreferrer'><AppleOutlined /></a>:null}
+              {project.git?<a href={project.git.backend.url} target="_blank" rel='noreferrer'>Backend <LinkOutlined /></a>:null}
+              {project.git?<a href={project.git.frontend.url} target="_blank" rel='noreferrer'>Frontend <LinkOutlined /></a>:null}
             </div>
           </div>
         </div>

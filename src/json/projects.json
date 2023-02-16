@@ -47,6 +47,16 @@
     "description": ["Wedding Lopez Chavez, is a website created with the purpose of providing relevant information to the wedding guests, such as locations of celebration, lodging locations, gift section, and guest registry."],
     "image": "../images/projects/wedding_lopez_chavez/image_1.png",
     "stack_tech": ["Back-end: laravel", "Front-end: vue vuex"],
-    "type_application": "web page"
+    "type_application": "web page",
+    "git": {
+      "backend":{
+        "tech":"Laravel",
+        "url":"https://github.com/nolasco7a/wedding-backend"
+      },
+      "frontend":{
+        "tech": "vue",
+        "url":"https://github.com/nolasco7a/wedding-frontend"
+      }
+    }
   }
 ]
