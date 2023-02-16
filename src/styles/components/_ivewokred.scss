@@ -11,24 +11,24 @@
 }
 
 //color tab ink bar
-:where(.css-1n7nwfa).ant-tabs .ant-tabs-ink-bar {
+:where(.css-diro6f).ant-tabs .ant-tabs-ink-bar {
     position: absolute !important;
     background: $custom-color-1 !important;
     pointer-events: none !important;
 }
 
 //color hover tabs
-:where(.css-1n7nwfa).ant-tabs .ant-tabs-tab:hover {
+:where(.css-diro6f).ant-tabs .ant-tabs-tab:hover {
     color: $custom-color-2 !important;
 }
 
 //color name tabs
-:where(.css-1n7nwfa).ant-tabs .ant-tabs-tab {
+:where(.css-diro6f).ant-tabs .ant-tabs-tab {
     color: $custom-color-4 !important;
 }
 
 //color active tab
-:where(.css-1n7nwfa).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+:where(.css-diro6f).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
     color: $custom-color-1 !important;
     text-shadow: 0 0 0.25px currentcolor !important;
 }
