@@ -9,15 +9,6 @@
     "type_application": "Mobile App"
   },
   {
-    "title": "Sompopo Suppliers",
-    "url_web": "http://proveedores.sompopo.com/",
-    "description": ["Sompopo suppliers is a platform for managing products, suppliers and wineries associated with the sompopo ecosystem."
-  ],
-    "image": "../images/projects/sompopo_proveedores/image_1.png",
-    "stack_tech": ["laravel", "vue", "vuex", "axios", "bootstrap"],
-    "type_application": "platform web"
-  },
-  {
     "title": "Supermercados Diprova",
     "url_web": "https://diprova.com/",
     "description": ["Diprova is a supermarket that offers a home delivery service, with multiple features such as special offers and personalized suggested products or re-purchases based on your previous purchase history."

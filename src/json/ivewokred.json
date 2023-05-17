@@ -1,39 +1,43 @@
 [
   {
-    "company":"PAiC Chain",
+    "company":"PAiC Business Development",
     "year":"August, 2019 - September, 2022",
-    "type":"Development company",
+    "type":"International telecommunications and development company dedicated to provide Telco and development software service, with clients around the world with offices in America and Europe.",
     "url": "https://paic-chain.com/",
-    "job": "Web developer / Lead Project / Internal consultant",
+    "job": "Front-End Developer",
     "contributions":[
-       "Implement GIT in legacy projects",
-        "Implement new development technologies like Laravel, Vue, and GraphQL",
-        "Contribute to take decisions in design and development",
-        "Optimize to code in legacy projects",
-        "Implement open source technologies like OpenCart to create canned m-commerce",
-        "Add new features, optimize, and maintenance legacy projects made in pure PHP",
-        "Add new features, optimize, and maintenance legacy projects made in React Native",
-        "Create portals of management content web",
-        "Reduce bugs reported for customers on 70%",
-        "Increased sales in 40% of companies like Sompopo Shop, developing new features in payment methods, and improving the checkout flux",
-        "Project Leader of 3 people team, for the development of front-end for e-commerce stores, with regional scope"
+        "Managed and implementedof version control software in legacy projects that allow better control in updating products and creation of new features.",
+        "Created new features and optimization code in legacy projects improving the performance by 30% of existing products.",
+        "Migrated of legacy projects to new versions and refactored components that follow a more current standard to improve the performance of the products.",
+        "Implementation of new development technologies like Laravel, Vue, and GraphQL to amplify the scope of solutions provided.",
+        "Documented code and APIs using Postman and Swagger that allowed to have a solid knowledge of the RESTful API definition and the specification describing the capabilities of the project covering client and new developer concerns.",
+        "Optimized code in new developments creating processes to implement and adopt best practices to meet industry standards and client requirements.",
+        "Implement open-source technologies to achieve company e-commerce products ready to deploy with the requirements of the Central American market.",
+        "Reduced bugs and errors reported for customers by 70%, incrementing the quality of the final product.",
+        "Increased sales in 40% of customer companies like Sompopo Shop, developing features to improve UX/UI.",
+        "Project Leader of 5 people team, in projects with regional scope.",
+        "Contributed to take decisions in the design and development of new products.",
+        "Supported team and coordinated new product developments, implementations, and releases.",
+        "Oriented new members in the introduction to new projects."
       ]
   },
   {
     "company":"IdeaWorks International",
     "year":"May, 2018 - August, 2019",
-    "type":"Digital transformation company",
+    "type":"Multi-National Marketing Agency with scope regional in Central and South America dedicated to digital transformation of companies.",
     "url": "https://ideaworks.la/sv",
     "job": "Web developer / Lead Project",
     "contributions":[
-      "Implement technologies and optimize time and design like Laravel, Vue, Figma, Postman, and Sass",
-      "Implement a web security process by using authentication library Auth0 to improve the security.",
-      "Direction and Planification of new web projects",
-      "Train new developers",
-      "Optimize UI/UX of web projects in collaboration with creativity department",
-      "Implement SVG animations in a web project",
-      "Create rules and good practice coding",
-      "Project Leader of 2 people team"
+      "Analyzed new opportunities to implement new development technologies and efficient work.",
+      "Incursioned into new markets developing tech solutions for companies.",
+      "Directioned and planification of new Web projects.",
+      "Managed control and security of databases.",
+      "Improved web design process by implementing technologies like Figma for Designers and SASS for developers.",
+      "Implemented of web security process by using the authentication library Auth0 to improve security.",
+      "Optimized UI/UX of web projects in collaboration with the creativity department.",
+      "Created rules and good practice coding.",
+      "Project Leader of 3 people team.",
+      "Oriented and trained new developers."
      ]
   }
 ]
