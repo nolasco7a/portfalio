@@ -1,70 +1,70 @@
-.ant-tabs-nav{
+.ant-tabs-nav {
   color: white;
 }
 
-.ant-tabs-content{
+.ant-tabs-content {
   color: white;
 }
 
-.ant-tabs-tab-active{
+.ant-tabs-tab-active {
   color: $custom-color-1 !important;
 }
 
 //color tab ink bar
-:where(.css-diro6f).ant-tabs .ant-tabs-ink-bar {
-    position: absolute !important;
-    background: $custom-color-1 !important;
-    pointer-events: none !important;
+:where(.css-15rg2km).ant-tabs .ant-tabs-ink-bar {
+  position: absolute !important;
+  background: $custom-color-1 !important;
+  pointer-events: none !important;
 }
 
 //color hover tabs
-:where(.css-diro6f).ant-tabs .ant-tabs-tab:hover {
-    color: $custom-color-2 !important;
+:where(.css-15rg2km).ant-tabs .ant-tabs-tab:hover {
+  color: $custom-color-2 !important;
 }
 
 //color name tabs
-:where(.css-diro6f).ant-tabs .ant-tabs-tab {
-    color: $custom-color-4 !important;
+:where(.css-15rg2km).ant-tabs .ant-tabs-tab {
+  color: $custom-color-4 !important;
 }
 
 //color active tab
-:where(.css-diro6f).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
-    color: $custom-color-1 !important;
-    text-shadow: 0 0 0.25px currentcolor !important;
+:where(.css-15rg2km).ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: $custom-color-1 !important;
+  text-shadow: 0 0 0.25px currentcolor !important;
 }
 
-.content-tab-custom{
-  .type-company{
+.content-tab-custom {
+  .type-company {
     font-size: 0.6rem;
     font-weight: 200;
   }
 
-  .name-company{
-    margin-bottom:0
+  .name-company {
+    margin-bottom: 0
   }
 
-  .type-job{
+  .type-job {
     color: $custom-color-1 !important;
   }
 
-  .year{
+  .year {
     letter-spacing: 2px;
     font-size: .8rem;
     font-weight: 300;
     color: $custom-color-2;
   }
 
-  ul{
+  ul {
     list-style-type: none;
 
-    li{
+    li {
       margin-bottom: 7px;
-      font-size:.8rem;
+      font-size: .8rem;
       font-weight: 300;
     }
   }
 }
 
-.style-none{
+.style-none {
   text-decoration: none;
 }
